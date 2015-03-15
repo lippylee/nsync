@@ -113,3 +113,4 @@ sub logit {
 	chomp($date);
 	system("echo \"[ $date ] $message\" >> $logfile");
 }
+
