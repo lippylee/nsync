@@ -1,11 +1,12 @@
 #!/usr/bin/env perl -w
-########################################
+
+###
 ## Before running this script, make sure you have:
 ## /etc/nsyncexcludes.conf
 ## /usr/local/bin/nsyncverifybackup.sh
 ## /usr/local/bin/comparedisks.pl
 ## and /usr/local/etc/nsyncexclusions
-########################################
+###
  
 use strict;
 use Getopt::Long;
